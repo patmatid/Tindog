@@ -4,12 +4,25 @@
   <head>
     <meta charset="utf-8">
     <title>TinDog</title>
+
+    <!-- Bootstrap referenties -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Font referenties -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&display=swap" rel="stylesheet">
+
+    <!-- Eigen CSS stylesheet -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
+
+    <!-- <script src="https://use.fontawesome.com/releases/vVERSION/js/all.js" data-mutate-approach="sync"></script> -->
+    <!-- Icons website= open source -->
+    <script src="https://kit.fontawesome.com/e93599599e.js" crossorigin="anonymous"></script>
+
   </head>
 
   <body>
@@ -17,37 +30,45 @@
     <section id="title">
 
       <!-- Nav Bar -->
+      <div class="container-fluid">
 
-      <nav class="navbar  navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand href="">tindog</a>
+        <nav class="navbar  navbar-expand-lg navbar-dark">
+          <a class="navbar-brand href="">tindog</a>
         <button class=" navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-            <ul class=" navbar-nav ms-auto">
-              <li class="nav-item">
-                <a class="nav-link" href="">Contact </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="">Pricing </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="">Download </a>
-              </li>
-            </ul>
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+              <ul class=" navbar-nav ms-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="">Contact </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="">Pricing </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="">Download </a>
+                </li>
+              </ul>
+        </nav>
+
+        <!-- Title -->
+
+
+        <div class="row">
+          <div class="col-lg-6">
+            <h1>Meet new and interesting dogs nearby.</h1>
+            <div>
+              <!-- Opgelet voor het laden van icons cfr i-tag: er moet een blanco tussen finale tag en de tekst </i> -->
+              <button type="button" class="btn btn-dark btn-lg"><i class="fab fa-apple"></i> Download</button>
+              <button type="button" class="btn btn-outline-light btn-lg"><i class="fa-brands fa-google-play"></i> Download</button>
+            </div>
           </div>
-      </nav>
 
+          <div class="col-lg-6 container">
+            <img src="images/iphone6.png" alt="iphone-mockup" class="title-dog img-responsive mw-100 mh-100">
+          </div>
+        </div>
 
-      <!-- Title -->
-
-      <div>
-        <h1>Meet new and interesting dogs nearby.</h1>
-        <button type="button">Download</button>
-        <button type="button">Download</button>
-      </div>
-      <div>
-        <img src="images/iphone6.png" alt="iphone-mockup">
       </div>
 
     </section>
