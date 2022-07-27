@@ -83,6 +83,22 @@ h2 {
   margin: 20px;
 }
 
+#testimonials .carousel-control-prev {
+  justify-content: flex-start;
+  jusitfy-content: start;
+  /* align-items: flex-start; */
+  left: -10px;
+  bottom: 80px;
+}
+
+#testimonials .carousel-control-next {
+  justify-content: flex-end;
+  jusitfy-content: start;
+  /* align-items: flex-start; */
+  right: : -10px;
+  bottom: 80px;
+}
+
 #press {
   background-color: #ef8172;
   text-align: center;
